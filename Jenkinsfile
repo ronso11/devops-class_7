@@ -14,7 +14,7 @@ pipeline {
         }
         stage('list files') {
             steps {
-                sh 'dir'
+                cli 'dir'
             }
         }
     }
